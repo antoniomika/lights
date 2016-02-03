@@ -1,0 +1,82 @@
+.select-button {
+	font-size: 22px;
+  	font-family: "Nunito", sans-serif;
+  	font-weight: bold;
+  	letter-spacing: 2px;
+  	text-decoration: none;
+  	
+	padding: 10px;
+	margin: 10px;
+
+	display: block;
+	width: 55px;
+	height: 55px;
+	line-height: 30px;
+	text-align: center;
+	
+	opacity: 1.0;
+	
+ 	transition: all 0.5s;
+}
+
+.select-button:hover, .select-button:active {
+	text-decoration: none;
+	background: #f9f9f9;
+	opacity: 0.9;
+}
+
+
+.red {
+	background:linear-gradient(#ee0000, #ee3300);
+  	border: 1px solid #ee3300;
+	text-decoration: none;
+	color: #fafafa;
+}
+
+.red:hover, .red:active {
+	border-color: #ee3300;
+	color: #ee3300;
+	
+}
+
+.grn {
+	background:linear-gradient(#00ee00, #00ee33);
+  	border: 1px solid #00ee00;
+	text-decoration: none;
+	color: #fafafa;
+}
+
+.grn:hover, .grn:active {
+	border-color: #00ee33;
+	color: #00ee33;
+	
+}
+.blu {
+	background:linear-gradient(#0000ee, #3300ee);
+  	border: 1px solid #3300ee;
+	text-decoration: none;
+	color: #fafafa;
+}
+
+.blu:hover, .blu:active {
+	border-color: #3300ee;
+	color: #3300ee;
+	
+}
+.wht0 {
+	background:linear-gradient(#eeeeee, #f3f3f3);
+  	border: 1px solid #9d9d9d;
+	text-decoration: none;
+	color: #9d9d9d;
+}
+
+.wht0:hover, .wht0:active {
+	border-color: #9d9d9d;
+	color: #9d9d9d;
+	
+}
+
+div.centeredstuee {
+	text-align: center;
+	margin: auto;
+}
